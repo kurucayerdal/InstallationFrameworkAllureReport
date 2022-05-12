@@ -1,0 +1,24 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://www.google.com/",
+    "video": false,
+    "videoCompression": 32,
+    "videoUploadOnPasses": true,
+    "pluginsFile": "cypress/plugins/index.js",
+    "fixturesFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "supportFile": "cypress/support/index.js",
+    "animationDistanceThreshold": 100,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "requestTimeout": 30000,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout" : 60000,
+    "trashAssetsBeforeRuns": true,
+    "chromeWebSecurity": false,
+    "screenshotOnRunFailure": true,
+    "capture" : "fullPage",
+    "screenshotsFolder": "cypress/results/screenshots",
+    "downloadsFolder": "cypress/downloads"
+}
+

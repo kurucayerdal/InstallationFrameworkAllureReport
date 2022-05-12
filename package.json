@@ -1,0 +1,21 @@
+{
+  "name": "intallationframeworkallurereport",
+  "version": "1.0.0",
+  "description": "Framework avec Allure Report",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "cypress run",
+    "cy:run": "npx cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate --clean -o allure-report",
+    "allure:open": "allure serve allure-results",
+    "posttest": "npm run allure:generate && npm run allure:open",
+    "test": "npm run scripts || npm run posttest"
+  },
+  "author": "Erdal Kurucay",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "cypress": "^9.6.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}
