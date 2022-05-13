@@ -5,7 +5,7 @@
     "name" : "Example Test Suite",
     "children" : [ {
       "name" : "Test 1",
-      "uid" : "5524cd3d13f56824",
+      "uid" : "5195117e3416156c",
       "parentUid" : "2c0a6c76b54e8db3eaf24f9fe4cfc418",
       "status" : "passed",
       "time" : {
@@ -22,7 +22,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 2",
-      "uid" : "4e9a2a9884b46206",
+      "uid" : "c5e232cfa6dc85c5",
       "parentUid" : "2c0a6c76b54e8db3eaf24f9fe4cfc418",
       "status" : "passed",
       "time" : {
@@ -39,7 +39,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 3",
-      "uid" : "32b71d6b19935705",
+      "uid" : "b894439df3d96c07",
       "parentUid" : "2c0a6c76b54e8db3eaf24f9fe4cfc418",
       "status" : "failed",
       "time" : {

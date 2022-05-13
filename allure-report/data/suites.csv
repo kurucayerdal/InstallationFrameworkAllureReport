@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
 "passed","Thu May 12 08:43:28 CEST 2022","Thu May 12 08:43:33 CEST 2022","4631","","Example Test Suite","","","","Test 1",""
-"passed","Thu May 12 08:43:33 CEST 2022","Thu May 12 08:43:37 CEST 2022","4644","","Example Test Suite","","","","Test 2",""
 "failed","Thu May 12 08:43:37 CEST 2022","Thu May 12 08:43:51 CEST 2022","13486","","Example Test Suite","","","","Test 3",""
+"passed","Thu May 12 08:43:33 CEST 2022","Thu May 12 08:43:37 CEST 2022","4644","","Example Test Suite","","","","Test 2",""
