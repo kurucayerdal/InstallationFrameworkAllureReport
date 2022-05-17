@@ -29,3 +29,14 @@ module.exports = (on, config) => {
     allureWriter(on, config);
     return config;
 };
+
+// const del = require('del');
+// module.exports = (on, config) => {
+//     on("before:run", () => {
+//       const deletedFilePaths = del([
+//         "allure-report"
+//       ]);
+//       //const deletedDirectoryPaths = del(["temp", "public"]);
+//       return this;
+//     });
+//   };
