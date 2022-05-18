@@ -4,9 +4,9 @@
   "description": "Framework avec Allure Report",
   "main": "index.js",
   "scripts": {
-    "cy:run" : "npx cypress run --config video=false --env allure=true",
-    "allure:report" : "allure generate allure-results --clean -o allure-report",
-    "test": " npm run cy:run || npm run posttest", 
+    "cy:run": "npx cypress run --config video=false --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "test": " npm run cy:run || npm run posttest",
     "posttest": "npm run allure:report"
   },
   "author": "Erdal Kurucay",
@@ -15,7 +15,8 @@
     "@shelex/cypress-allure-plugin": "^2.26.5",
     "cypress": "^9.6.1",
     "cypress-xpath": "^1.6.2",
-    "del": "^6.0.0"
+    "del": "^6.0.0",
+    "typescript": "^4.6.4"
   },
   "dependencies": {
     "allure-commandline": "^2.17.2",

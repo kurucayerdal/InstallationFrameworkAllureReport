@@ -30,3 +30,13 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     cy.log(err.message);
     return false;
   });
+
+  Cypress.Commands.add('addInfo', (feature, epic, issue, message) =>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    cy.allure()
+      .feature(feature)
+      .epic(epic)
+      .issue(issue)
+      .message(message)
+    return this;
+  })
