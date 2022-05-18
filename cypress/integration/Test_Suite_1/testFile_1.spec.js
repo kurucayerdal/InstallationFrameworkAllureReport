@@ -1,4 +1,3 @@
-const AllureReporter = require("mocha-allure-reporter");
 
 describe("Example Test Suite 1", () => {
     it("Test 1", () => {
@@ -8,7 +7,6 @@ describe("Example Test Suite 1", () => {
     });
   
     it("Test 2", () => {
-      Allure.severity(blocker);
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
