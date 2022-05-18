@@ -36,6 +36,5 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     allure.feature(feature);
     allure.epic(epic);
     allure.issue(issue);
-    allure.message(message);
     return this;
   })
