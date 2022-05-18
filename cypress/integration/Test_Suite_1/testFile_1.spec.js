@@ -1,8 +1,8 @@
 describe("Example Test Suite 1", () => {
-    it("Test 1", () => {
       /**
-       *  @severity critical
+      @severity critical
        */
+    it("Test 1", () => {
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
