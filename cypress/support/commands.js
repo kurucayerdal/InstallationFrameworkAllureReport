@@ -33,10 +33,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
   Cypress.Commands.add('addInfo', (feature, epic, issue, message) =>{
     const allure = Cypress.Allure.reporter.getInterface();
-    cy.allure()
-      .feature(feature)
-      .epic(epic)
-      .issue(issue)
-      .message(message)
+    allure.feature(feature);
+    allure.epic(epic);
+    allure.issue(issue);
+    allure.message(message);
     return this;
   })
