@@ -1,4 +1,3 @@
-
 describe("Example Test Suite 1", () => {
     it("Test 1", () => {
       cy.visit("https://www.google.com");
