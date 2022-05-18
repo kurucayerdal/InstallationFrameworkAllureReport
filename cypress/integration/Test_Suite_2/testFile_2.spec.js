@@ -1,6 +1,5 @@
 describe("Example Test Suite 2", () => {
     it("Test 1", () => {
-      cy.addInfo('featureName', 'epicName', 'issue', 'description');
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
