@@ -7,6 +7,7 @@ describe("Example Test Suite 1", () => {
     });
   
     it("Test 2", () => {
+      cy.addInfo("Mettre en évidence les jointures d'un contexte", "[Configuration] Editeur de dictionnaires (module 'Designer')", "https://jira.evolucare.com/browse/BIC-8429'", "https://jira.evolucare.com/browse/BIC-8429'", "En tant qu'utilisateur avancé d'Evolucare Analytics, j'aimerais pouvoir mettre en évidence les jointures d'un contexte dans l'onglet graphique de l'éditeur de dictionnaire.", "blocker");
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
