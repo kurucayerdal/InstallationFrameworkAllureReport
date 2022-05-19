@@ -1,6 +1,6 @@
 describe("Example Test Suite 1", () => {
     it("Test 1", () => {
-      cy.addInfo('featureName', 'epicName', 'Jira Link', 'https://jira.evolucare.com/browse/BIC-8429', 'https://jira.evolucare.com/browse/BIC-8429', 'my trial test description', 'critical');
+      cy.addInfo("Mettre en évidence les jointures d'un contexte", "[Configuration] Editeur de dictionnaires (module 'Designer')", 'https://jira.evolucare.com/browse/BIC-8429', 'https://jira.evolucare.com/browse/BIC-8429', 'my trial test description', 'critical');
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
