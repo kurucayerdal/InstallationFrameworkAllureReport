@@ -9,6 +9,7 @@ describe("Example Test Suite 2", () => {
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
+      assert(2*2, 5);
     });
   
     it("Test B", () => {
