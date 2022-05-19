@@ -1,5 +1,5 @@
 describe("Example Test Suite 2", () => {
-    it("Test 1", () => {
+    it("Test A", () => {
       cy.addSeverity("blocker");
       cy.addDescription("EVOLUCARE Technologies search from google");
       cy.addEpic("Epic name will be here");
@@ -11,7 +11,7 @@ describe("Example Test Suite 2", () => {
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");
     });
   
-    it("Test 2", () => {
+    it("Test B", () => {
       cy.addSeverity("minor");
       cy.addDescription("EVOLUCARE Technologies search from google");
       cy.addEpic("A different epic name will be here");
