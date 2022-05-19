@@ -5,7 +5,7 @@
     "name" : "Example Test Suite 1",
     "children" : [ {
       "name" : "Test 1",
-      "uid" : "707ba40164a970a3",
+      "uid" : "ff374ededce262da",
       "parentUid" : "88f79a776396cf99796c53515f431850",
       "status" : "passed",
       "time" : {
@@ -22,7 +22,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 2",
-      "uid" : "268aa489ff901323",
+      "uid" : "f4b2cfbc786da1f4",
       "parentUid" : "88f79a776396cf99796c53515f431850",
       "status" : "passed",
       "time" : {
@@ -39,7 +39,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 3",
-      "uid" : "879e509f8f08c7fa",
+      "uid" : "3480ee36662cbea0",
       "parentUid" : "88f79a776396cf99796c53515f431850",
       "status" : "failed",
       "time" : {
@@ -60,7 +60,7 @@
     "name" : "Example Test Suite 2",
     "children" : [ {
       "name" : "Test 1",
-      "uid" : "a3a7a1c964a95c3c",
+      "uid" : "64a399de56e8587",
       "parentUid" : "260cb26e26c5295cbe94464a4313bc26",
       "status" : "passed",
       "time" : {
@@ -77,7 +77,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 2",
-      "uid" : "324e9f77f6dbcaf5",
+      "uid" : "6677db66e0e3f2bf",
       "parentUid" : "260cb26e26c5295cbe94464a4313bc26",
       "status" : "passed",
       "time" : {
@@ -98,7 +98,7 @@
     "name" : "Example Test Suite 3",
     "children" : [ {
       "name" : "Test 1",
-      "uid" : "b35dcf80035bc456",
+      "uid" : "8b007232b5bc3a1c",
       "parentUid" : "fab7f8d9901490b0e0869604a4c01c34",
       "status" : "passed",
       "time" : {
@@ -115,7 +115,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Test 2",
-      "uid" : "365e93ba68ddf85",
+      "uid" : "c8e4138694714f8d",
       "parentUid" : "fab7f8d9901490b0e0869604a4c01c34",
       "status" : "passed",
       "time" : {

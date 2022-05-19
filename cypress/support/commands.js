@@ -40,4 +40,35 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     allure.description(description);
     allure.severity(severity);
     return this;
-  })
+  });
+
+  Cypress.Commands.add('addFeature', (feature)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.feature(feature);
+  });
+
+  Cypress.Commands.add('addEpic', (epic)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.epic(epic);
+  });
+
+  Cypress.Commands.add('addIssue', (name, url)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.issue(name, url);
+  });
+
+  //test management system (Squash TM)
+  Cypress.Commands.add('addTms', (name, url)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.tms(name, url);
+  });
+
+  Cypress.Commands.add('addDescription', (description)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.description(description);
+  });
+
+  Cypress.Commands.add('addSeverity', (severity)=>{
+    const allure = Cypress.Allure.reporter.getInterface();
+    allure.severity(severity);
+  });

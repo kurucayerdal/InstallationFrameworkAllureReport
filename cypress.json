@@ -20,8 +20,6 @@
     "capture" : "fullPage",
     "screenshotsFolder": "cypress/results/screenshots",
     "downloadsFolder": "cypress/downloads",
-    "allureAddVideoOnPass" : true,
-    "tmsPrefix" : "https://saas-evolucare01.henix.com/squash/test-case-workspace/test-case/",
-    "issuePrefix" : "https://jira.evolucare.com/browse/"
+    "allureAddVideoOnPass" : true
 }
 
