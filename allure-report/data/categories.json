@@ -7,19 +7,19 @@
       "name" : "Timed out retrying after 10000ms: expected 'EVOLUCARE Technologies - Recherche Google' to equal 'My Title'",
       "children" : [ {
         "name" : "Test 3",
-        "uid" : "fcc44194a64a4b62",
+        "uid" : "879e509f8f08c7fa",
         "parentUid" : "83ceacc2889274149e4b73174fec74e1",
         "status" : "failed",
         "time" : {
-          "start" : 1652629152540,
-          "stop" : 1652629165894,
-          "duration" : 13354
+          "start" : 1652941742959,
+          "stop" : 1652941758076,
+          "duration" : 15117
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],

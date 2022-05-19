@@ -1,70 +1,70 @@
 [ {
-  "uid" : "9afdb7cd5e90d87",
-  "name" : "Test 2",
+  "uid" : "b35dcf80035bc456",
+  "name" : "Test 1",
   "time" : {
-    "start" : 1652629171457,
-    "stop" : 1652629175421,
-    "duration" : 3964
+    "start" : 1652941770647,
+    "stop" : 1652941774141,
+    "duration" : 3494
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fcc44194a64a4b62",
+  "uid" : "324e9f77f6dbcaf5",
+  "name" : "Test 2",
+  "time" : {
+    "start" : 1652941764373,
+    "stop" : 1652941768542,
+    "duration" : 4169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a7a1c964a95c3c",
+  "name" : "Test 1",
+  "time" : {
+    "start" : 1652941760271,
+    "stop" : 1652941764358,
+    "duration" : 4087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "365e93ba68ddf85",
+  "name" : "Test 2",
+  "time" : {
+    "start" : 1652941774157,
+    "stop" : 1652941778379,
+    "duration" : 4222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "707ba40164a970a3",
+  "name" : "Test 1",
+  "time" : {
+    "start" : 1652941734128,
+    "stop" : 1652941738411,
+    "duration" : 4283
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "879e509f8f08c7fa",
   "name" : "Test 3",
   "time" : {
-    "start" : 1652629152540,
-    "stop" : 1652629165894,
-    "duration" : 13354
+    "start" : 1652941742959,
+    "stop" : 1652941758076,
+    "duration" : 15117
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "897050b07d40990e",
-  "name" : "Test 1",
-  "time" : {
-    "start" : 1652629177479,
-    "stop" : 1652629180952,
-    "duration" : 3473
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "857b763d378e2224",
-  "name" : "Test 1",
-  "time" : {
-    "start" : 1652629167971,
-    "stop" : 1652629171450,
-    "duration" : 3479
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9df5d386f445a9f9",
+  "uid" : "268aa489ff901323",
   "name" : "Test 2",
   "time" : {
-    "start" : 1652629180963,
-    "stop" : 1652629184632,
-    "duration" : 3669
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30d95a64e1ae6ef2",
-  "name" : "Test 1",
-  "time" : {
-    "start" : 1652629144227,
-    "stop" : 1652629148203,
-    "duration" : 3976
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a4e91d3e94d0ca3",
-  "name" : "Test 2",
-  "time" : {
-    "start" : 1652629148214,
-    "stop" : 1652629152490,
-    "duration" : 4276
+    "start" : 1652941738428,
+    "stop" : 1652941742887,
+    "duration" : 4459
   },
   "status" : "passed",
   "severity" : "normal"

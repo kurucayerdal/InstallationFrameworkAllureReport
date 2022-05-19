@@ -1,7 +1,7 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
     "baseUrl": "https://www.google.com/",
-    "video": false,
+    "video": true,
     "videoCompression": 32,
     "videoUploadOnPasses": true,
     "pluginsFile": "cypress/plugins/index.js",
@@ -19,6 +19,7 @@
     "screenshotOnRunFailure": true,
     "capture" : "fullPage",
     "screenshotsFolder": "cypress/results/screenshots",
-    "downloadsFolder": "cypress/downloads"
+    "downloadsFolder": "cypress/downloads",
+    "allureAddVideoOnPass" : true
 }
 

@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "values" : [ "Chrome (headless) " ],
+  "name" : "Browser"
+}, {
+  "values" : [ "101" ],
+  "name" : "Browser_Version"
+}, {
+  "values" : [ "Windows 10 Professionnel" ],
+  "name" : "OS"
+}, {
+  "values" : [ "R&D" ],
+  "name" : "Department"
+}, {
+  "values" : [ "Erdal Kurucay" ],
+  "name" : "Reporter"
+} ]

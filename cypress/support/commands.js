@@ -31,6 +31,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
 
+  //https://github.com/Shelex/cypress-allure-plugin
   Cypress.Commands.add('addInfo', (feature, epic, issue, description, severity) =>{
     const allure = Cypress.Allure.reporter.getInterface();
     allure.feature(feature);

@@ -1,6 +1,6 @@
 describe("Example Test Suite 1", () => {
     it("Test 1", () => {
-      cy.addInfo('featureName', 'epicName', 'issue', 'my trial test description', 'Critical');
+      cy.addInfo('featureName', 'epicName', 'https://jira.evolucare.com/browse/BIC-8429', 'my trial test description', 'Critical');
       cy.visit("https://www.google.com");
       cy.contains("J'accepte").click();
       cy.get('[name="q"]').type("EVOLUCARE Technologies {enter}");

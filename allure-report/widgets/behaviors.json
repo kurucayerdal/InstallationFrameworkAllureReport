@@ -1,4 +1,15 @@
 {
   "total" : 7,
-  "items" : [ ]
+  "items" : [ {
+    "uid" : "bfbd4582652fbe66106d0861a4465b30",
+    "name" : "epicName",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }
